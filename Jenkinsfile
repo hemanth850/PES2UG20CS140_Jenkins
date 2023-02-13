@@ -13,8 +13,9 @@ pipeline {
             }
         }
         stage('Deploy') {
-            stage {
+            steps {
                 // Add your deployment steps here
+                sh './PES2UG20CS140-1'
             }
         }
     }
